@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Lato:ital,wght@1,300;1,400&display=swap');
+@import './style/commonclasses.css'; 
+
+
 body {
   margin: 0;
   /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

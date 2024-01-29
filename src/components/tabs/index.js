@@ -1,10 +1,13 @@
 import React from "react";
 
-const Tabs=()=>
+const Tabs=({tab,settab})=>
 {
-    return (
-        <div>this is tabs</div>
+    return( 
+        <div>
+            <button onClick={()=>settab("Nightlife")}>click</button>
+        </div>
     )
+    
 }
 
 export default Tabs;
