@@ -30,15 +30,45 @@
     border-radius: 8px;
     box-shadow: var(--primarybox_shadow);
     border: 1px solid var(--whiterborder);
-    width: 80%;
+    width: 70%;
     background-color: var(--primarybg);
+}
+
+
+.loction_wrapper
+{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.location_icon_name
+{
+    display: flex;
+    color: var(--location_icon_name_color);
 }
 
 
 .location_icon
 {
-    color: rgb(8, 130, 15);
+    color: var(--location_icon_color);
+    font-size: 22px;
+    margin-right: 7px;
     /* display: flex;
     justify-content: center;
     align-items: center; */
+}
+
+.location_search_separator
+{
+    height: 20px;
+    border:1px solid var(--location_search_separator_color);
+
+}
+
+.header_profile_img
+{
+    height: 30px;
+    width: 30px;
 }

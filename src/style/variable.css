@@ -2,5 +2,8 @@
 {
     --primarybox_shadow:rgb(28 28 28 /70%) 0px 2px 8px;
     --whiterborder: rgb(237, 237, 237);
-    --primarybg:rgb(170, 243, 188);
+    --primarybg:rgb(197, 248, 210);
+    --location_icon_name_color:rgb(103, 103, 120);
+    --location_icon_color:rgb(216, 28, 28);
+    --location_search_separator_color:black;
 }
