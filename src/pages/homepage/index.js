@@ -9,13 +9,14 @@ import Nightlife from "../../components/nightlife";
 const Homepage=()=>
 {
 
-    const[tab,settab]=useState("Delivery");
+    const[activetab,settab]=useState("Delivery");
 
     return (
         <div>
             <Header/>
-            <Tabs tab={tab} settab={settab} />
-            {getScreen(tab)}
+                      {/* props */}
+            <Tabs tab={activetab} settab={settab} />
+            {getScreen(activetab)}
             <Footer/>
         </div>
     )
@@ -26,11 +27,14 @@ const getScreen=(tabs)=>
     switch(tabs)
     {
         case "Delivery" : 
-        return <Delivery/>
+        return  <Delivery/>;
         case "Dining out" :
-        return <Diningout/>
+        return  <Diningout/>;
         case "Nightlife" :
-        return <Nightlife/>
+        return  <Nightlife/>;
+        default :
+        return <Delivery/>;
+
     }
 }
 

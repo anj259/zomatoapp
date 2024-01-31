@@ -30,7 +30,7 @@ const Header=()=>
                 </div>
                 <div className="profile_wrapper">
                     <img src="https://www.drawhipo.com/wp-content/uploads/2022/07/Fast-Food-Color-3-Pizza-Curved.png" alt="profile" className="header_profile_img"/>
-                    <div>Anj</div>
+                    <div className="header_username">Anjali</div>
                     <div className="allcenter profile_option_icon"><FaAngleDown /></div>
                 </div>
             </div>
