@@ -15,7 +15,7 @@ const Homepage=()=>
         <div>
             <Header/>
                       {/* props */}
-            <Tabs tab={activetab} settab={settab} />
+            <Tabs activetab={activetab} settab={settab} />
             {getScreen(activetab)}
             <Footer/>
         </div>

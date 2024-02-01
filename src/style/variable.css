@@ -6,4 +6,7 @@
     --location_icon_name_color:rgb(103, 103, 120);
     --location_icon_color:rgb(216, 28, 28);
     --location_search_separator_color:black;
+    --white:white;
+    --inactive_text:#575759;
+    --inactive_color:#f8f8f8;
 }

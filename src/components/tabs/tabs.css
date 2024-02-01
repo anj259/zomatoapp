@@ -1,0 +1,47 @@
+.taboptions
+{
+    box-shadow: var(--white) 0px 0.5px 0px inset;
+}
+
+.tabs-wrapper
+{
+    display: flex;
+}
+
+.tab_item
+{
+    margin-right: 25px;
+    padding: 10px 10px 20px 10px;
+}
+
+.tab_name
+{
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 10px;
+    color: var(--inactive_text);
+}
+
+.tab_img_container
+{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: var(--inactive_color);
+}
+
+.tab_img
+{
+    height: 30px;
+    width: 30px;
+}
+
+.active_tab
+{
+    border-bottom: 2px solid rgb(138, 67, 67);
+}
+
+.active_tab .tab_name
+{
+    color: rgb(138, 67, 67);
+}
