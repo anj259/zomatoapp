@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Header from "../../components/header";
-import Tabs from "../../components/tabs";
-import Footer from "../../components/footer";
+import Header from "../../components/common/header";
+import Tabs from "../../components/common/tabs";
+import Footer from "../../components/common/footer";
 import Delivery from "../../components/delivery";
 import Diningout from "../../components/diningout";
 import Nightlife from "../../components/nightlife";

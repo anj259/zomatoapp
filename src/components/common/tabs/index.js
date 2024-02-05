@@ -28,8 +28,6 @@ const tabs=[
 
 const Tabs=({activetab,settab})=>
 {
-    
-
     return( 
         <div className="taboptions">
             {/* <button onClick={()=>settab("Nightlife")}>click</button> */}
