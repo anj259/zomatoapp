@@ -2,11 +2,18 @@
 {
     --primarybox_shadow:rgb(28 28 28 /70%) 0px 2px 8px;
     --whiterborder: rgb(237, 237, 237);
-    --primarybg:rgb(197, 248, 210);
+    --primarybg:rgb(215, 249, 224);
     --location_icon_name_color:rgb(103, 103, 120);
     --location_icon_color:rgb(216, 28, 28);
     --location_search_separator_color:black;
     --white:white;
     --inactive_text:#575759;
     --inactive_color:#f8f8f8;
+    --white:#ffffff;
+    --filtertext:#9c9c9c;
+    --gray:#808080;
+    --delivery_coll_text:rgb(31, 32, 31);
+
+
+    
 }

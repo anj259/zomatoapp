@@ -6,7 +6,7 @@ const Filter=({filterlist} )=>
 {
     return(
         // <div>this is filter<Filteritem/></div>
-        <div>
+        <div className="filters">
            {filterlist && filterlist.map((filter)=>{
                 // return <div>{filter.title}</div>
                 return <div><Filteritem filter={filter} key={filter.id}/></div>

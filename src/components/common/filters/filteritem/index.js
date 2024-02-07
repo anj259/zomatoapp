@@ -2,11 +2,12 @@ import React from "react";
 import './filteritem.css';
 
 
-const Filteritem=()=>
+const Filteritem=({filter})=>
 {
     return(
-        <div>
-            this is filter item
+        <div className="filteritem">
+            {filter.icon && filter.icon}
+            <div className="filtername">{filter.title}</div>
         </div>
     )
 }

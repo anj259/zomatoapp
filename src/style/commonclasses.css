@@ -15,3 +15,12 @@
 {
     cursor: pointer;
 }
+
+.collection_title
+{
+    font-size: 25px;
+    color: var(--delivery_coll_text);
+    margin-bottom: 30px;
+    font-weight: 600;
+
+}

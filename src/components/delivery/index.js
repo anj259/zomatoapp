@@ -3,7 +3,7 @@ import './delivery.css';
 import Filter from "../common/filters";
 import { BiSliderAlt } from "react-icons/bi";
 import { LuArrowDownUp } from "react-icons/lu";
-
+import Deliverycollections from "./deliverycollection";
 
 const deliveryfilter=[
     {
@@ -43,6 +43,7 @@ const Delivery=()=>
             <div className="maxwidth ">
                 <Filter filterlist={deliveryfilter}/> 
             </div> 
+            <Deliverycollections />
         </div>
     );
 }
