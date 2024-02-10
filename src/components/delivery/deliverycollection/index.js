@@ -1,5 +1,9 @@
 import React from "react";
 import './deliverycollection.css'
+import Nextarrow from "../../common/commonarrows/nextarrow";
+import Prevarrow from "../../common/commonarrows/previousarrow";
+import Slider from "react-slick";
+import Deliveryitems from "./deliveryitems";
 
 const deliveryitems=
 [
@@ -46,12 +50,13 @@ const deliveryitems=
 ]
 
 const settings = {
-    dots: true,
-    infinite: true,
-    slidesToShow: 3,
+    // dots: true,
+    //   infinite false means if loop is over it will strat from starting point
+    infinite: false,
+    slidesToShow: 4,
     slidesToScroll: 1,
-    // nextArrow: 
-    // prevArrow: 
+    nextArrow: <Nextarrow />,
+    prevArrow: <Prevarrow />
   };
   
 const Deliverycollections=()=>
@@ -60,6 +65,14 @@ const Deliverycollections=()=>
     <div className="delivery_collection">
         <div className="maxwidth">
             <div className="collection_title">Eat What makes you Happy</div>
+            <Slider {...settings}>
+                {
+                    deliveryitems.map((item)=>
+                    {
+                        return <Deliveryitems item={item}/>
+                    })
+                }
+            </Slider>
         </div>
     </div>
 

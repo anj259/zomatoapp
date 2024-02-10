@@ -1,0 +1,16 @@
+.deli_item_cover
+{
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    box-shadow: var(--collection_shadow);
+    border-radius: 10px;
+}
+
+.deli_item_img
+{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
