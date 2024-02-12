@@ -4,6 +4,7 @@ import Filter from "../common/filters";
 import { BiSliderAlt } from "react-icons/bi";
 import { LuArrowDownUp } from "react-icons/lu";
 import Deliverycollections from "./deliverycollection";
+import Topbrands from "./topbrands";
 
 const deliveryfilter=[
     {
@@ -44,6 +45,7 @@ const Delivery=()=>
                 <Filter filterlist={deliveryfilter}/> 
             </div> 
             <Deliverycollections />
+            <Topbrands />
         </div>
     );
 }
