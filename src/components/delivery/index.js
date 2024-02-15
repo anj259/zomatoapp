@@ -5,6 +5,8 @@ import { BiSliderAlt } from "react-icons/bi";
 import { LuArrowDownUp } from "react-icons/lu";
 import Deliverycollections from "./deliverycollection";
 import Topbrands from "./topbrands";
+import Exploresection from "../common/exploresection";
+import { restaurant } from "../../data/restaurant";
 
 const deliveryfilter=[
     {
@@ -36,6 +38,8 @@ const deliveryfilter=[
     
 ]
 
+const restaurantlist=restaurant;
+
 const Delivery=()=>
 {
     return(
@@ -46,6 +50,8 @@ const Delivery=()=>
             </div> 
             <Deliverycollections />
             <Topbrands />
+            <Exploresection list={restaurantlist} collectionName="delivery reastaurants in surat"/>
+
         </div>
     );
 }
