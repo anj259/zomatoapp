@@ -7,7 +7,7 @@ const Filteritem=({filter})=>
     return(
         <div className="filteritem">
             {filter.icon && filter.icon}
-            <div className="filtername">{filter.title}</div>
+            <div className="filtername cursor_pointer">{filter.title}</div>
         </div>
     )
 }

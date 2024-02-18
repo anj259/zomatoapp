@@ -9,7 +9,7 @@
 .explorexard_cover
 {
     height: 250px;
-    width: 280px;
+    width: 300px;
     border-radius: 15%;
     position: relative;
 }
@@ -20,4 +20,148 @@
     width: 100%;
     object-fit: cover;
     border-radius: 15px;
+}
+
+.delivery_time
+{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    opacity: 10;
+    background-color: var(--primarybg);
+    backdrop-filter: blur(5px);
+    font-weight: 500;
+    font-size: 13px;
+    padding: 2px 5px 3px;
+    border-radius: 5px;
+}
+
+.prooff
+{
+    position: absolute;
+    left: 8px;
+    bottom: 40px;
+    background-color: var(--tag_red_color);
+    color: white;
+    padding: 0px 5px;
+    border-radius: 0px 2px 2px 0px ;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    white-space: nowrap;
+    line-height: 18px;
+    font-weight: 500;
+}
+
+.discount
+{
+    position: absolute;
+    left: 8px;
+    bottom: 15px;
+    background-color: var(--tag_blue_color);
+    color: white;
+    padding: 0px 5px;
+    border-radius: 0px 2px 2px 0px ;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    white-space: nowrap;
+    line-height: 18px;
+    font-weight: 500;
+}
+
+.goldoff
+{
+    position: absolute;
+    left: 8px;
+    bottom: 15px;
+    background-color: var(--tag_red_color);
+    color: white;
+    padding: 0px 5px;
+    border-radius: 0px 2px 2px 0px ;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    white-space: nowrap;
+    line-height: 18px;
+    font-weight: 500;
+}
+
+.rest_row
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0px 6px;
+}
+
+.rest_name
+{
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--delivery_coll_text);
+}
+
+.rest_ratting
+{
+    padding: 0px 8px;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    background-color: var(--tag_gereen_color);
+    border-radius: 5px;
+    height: 25px;
+}
+
+.rating_icon
+{
+    font-size: 12px;
+    margin-left: 2px;
+}
+
+.rest_cuisine
+{
+    max-width: 55%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 15px;
+}
+
+.rest_cuisin_tag
+{
+    margin-right: 5px;
+    color: var(--inactive_text);
+}
+
+.rest_price
+{
+    font-size: 14px;
+    color: var(--inactive_text);
+
+}
+
+.rest_bottom_text
+{
+    /* position: absolute; */
+    max-width: 200px;
+    font-size: 14px;
+    color: var(--inactive_text);
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    margin-left: 8px;
+    /* white-space: nowrap; */
+
+}
+
+.card_separator
+{
+    height: 2px;
+    margin: 10px 0px 5px;
+    background-color: #cbc6c6;
+}
+
+.explorecard:hover
+{
+    background-color: var(--primarybg);
+    border: 1px solid #cbc6c6;
 }
